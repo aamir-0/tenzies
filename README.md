@@ -19,6 +19,6 @@ Build:
 - npm run build
 
 Deployed (GitHub Pages):
-- https://aamir-0.github.io/Tenzi/
+- https://aamir-0.github.io/tenzies/
 
 Credit: Built as part of a Scrimba React learning path.
