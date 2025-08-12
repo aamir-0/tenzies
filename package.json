@@ -6,17 +6,20 @@
   "description": "A dice game built with React - Scrimba tutorial project",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "nanoid": "^5.0.7",
-    "react-confetti": "^6.1.0"
+    "react": "^18.3.1",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.3",
+    "gh-pages": "^6.3.0",
     "vite": "^4.4.5"
   }
 }
