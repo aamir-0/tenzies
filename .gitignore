@@ -1,8 +1,5 @@
 # Dependencies
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Build outputs
 dist/
@@ -15,11 +12,16 @@ build/
 .env.test.local
 .env.production.local
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
 # OS generated files
 .DS_Store
@@ -30,27 +32,12 @@ build/
 ehthumbs.db
 Thumbs.db
 
-# Logs
-logs
-*.log
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
-coverage/
-
-# nyc test coverage
-.nyc_output
-
-# Dependency directories
-jspm_packages/
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
+# Temporary files
+*.tmp
+*.temp
